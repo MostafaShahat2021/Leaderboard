@@ -79,5 +79,5 @@ button {
 }
 
 li:nth-child(odd) {
-  background-color: gray;
+  background-color: rgb(202, 198, 198);
 }
