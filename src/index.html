@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Leaderboard</title>
 </head>
+
 <body>
-    <h1>Hello webpack!</h1>
+  <h1>LeaderBoard</h1>
+  <main class="leaderboard">
+    <div class="container">
+      <div class="recent">
+        <h2>Recent score</h2>
+        <button id="refresh">Refresh</button>
+      </div>
+      <ul class="score-list">
+        <li class="score-container">
+          <span class="name">Name: </span>
+          <span class="score">30</span>
+        </li>
+        <li class="score-container">
+          <span class="name">Name: </span>
+          <span class="score">30</span>
+        </li>
+        <li class="score-container">
+          <span class="name">Name: </span>
+          <span class="score">30</span>
+        </li>
+        <li class="score-container">
+          <span class="name">Name: </span>
+          <span class="score">30</span>
+        </li>
+        <li class="score-container">
+          <span class="name">Name: </span>
+          <span class="score">30</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="form">
+      <h2>Add your score</h2>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      <input type="number" id="score" name="score" placeholder="Enter your score" required>
+      <button id="submit">Submit</button>
+    </div>
+  </main>
 </body>
+
 </html>
