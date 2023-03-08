@@ -101,7 +101,7 @@ git clone git@github.com:MostafaShahat2021/portfolio.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Improve the App's styleing**
+- [ ] **Improve the App's styling**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
