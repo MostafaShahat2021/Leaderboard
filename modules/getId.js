@@ -14,6 +14,5 @@ const getId = async () => {
     },
   );
   const myId = await res.json();
-  // console.log(myId);
   return myId;
 };

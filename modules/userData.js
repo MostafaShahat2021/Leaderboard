@@ -1,11 +1,9 @@
 /* eslint-disable import/prefer-default-export */
-
 const userNmae = document.getElementById('name');
 const userScore = document.getElementById('score');
 
 const userData = async () => {
   if (userNmae.value.length > 0 && userScore.value.length > 0) {
-    // console.log(userNmae.value.length);
     const res = await fetch(
       'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/o1omlETtXdg23fc9m4gK/scores/',
       {
