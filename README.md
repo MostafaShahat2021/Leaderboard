@@ -35,7 +35,11 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ### Key Features <a name="key-features"></a>
 ### In this project:
-- Add items dynamically to the UI 
+- ⭐️ Create a new game by Useing Leaderboard API.
+- ⭐️ Add Submit function.
+- ⭐️ Add Refresh function.
+- Use async and await JavaScript features to consume the API.
+- Add items dynamically to the UI. 
 - Use NPM.
 - Use webpack.
 - Use webpack-cli.
@@ -97,7 +101,7 @@ git clone git@github.com:MostafaShahat2021/portfolio.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use Leaderboard API**
+- [ ] **Improve the App's styleing**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
