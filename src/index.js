@@ -1,16 +1,21 @@
+/* eslint-disable no-unused-vars */
 import './style.css';
-import { score } from './vars.js';
+import showData from '../modules/showData.js';
+import userData from '../modules/userData.js';
+import getData from '../modules/getData.js';
 
-const scoreList = document.querySelector('.score-list');
-const renderScore = () => {
-  score.forEach((item) => {
-    const lielement = document.createElement('li');
-    lielement.setAttribute('class', 'score-container');
-    lielement.innerHTML = `
-      <span class="name">${item.name}: </span>
-      <span class="score">${item.playerScore}</span>
-      `;
-    scoreList.appendChild(lielement);
-  });
-};
-renderScore();
+const submitBtn = document.getElementById('submit');
+const refreshBtn = document.getElementById('refresh');
+
+window.addEventListener('load', () => {
+  showData();
+});
+
+submitBtn.addEventListener('click', () => {
+  userData();
+});
+
+refreshBtn.addEventListener('click', () => {
+  getData();
+  showData();
+});
