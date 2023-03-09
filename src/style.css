@@ -46,6 +46,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 10rem;
 }
 
 .score-list {
