@@ -5,11 +5,31 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.main-head {
+  color: #09f;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+  margin-bottom: 2em;
+  margin-left: 10rem;
+  text-align: left;
+  font-family: 'Games', sans-serif;
+  font-size: 3rem;
+}
+
 h1 {
-  margin-top: 1em;
+  margin-bottom: 2em;
   margin-left: 10rem;
   text-align: left;
   font-size: 3rem;
+  font-family: monospace;
+}
+
+h2 {
+  color: #09f;
+  font-size: 35px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: whitesmoke;
+  font-family: 'Games', sans-serif;
 }
 
 .leaderboard {
@@ -18,6 +38,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 5rem;
   margin-top: -20vh;
 }
 
@@ -25,13 +46,14 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-top: 10rem;
 }
 
 .score-list {
-  border: 2px solid;
   width: 25rem;
   height: 20rem;
   overflow: scroll;
+  scrollbar-color: aquamarine #09f;
 }
 
 input,
@@ -58,22 +80,33 @@ h3 {
 .form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   margin-top: 5rem;
 }
 
 input {
-  border: 2px solid;
   font-size: 1rem;
   padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 0.5em rgba(250, 9, 190, 0.25);
 }
 
 button {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5px;
   font-size: 1rem;
   border: 1px solid;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 10px 10px 0.5em rgba(250, 9, 190, 0.25);
+  transition: 200ms;
+  color: #09f;
+}
+
+button:hover {
+  background-color: aquamarine;
+  transform: translateY(5px);
 }
 
 .submit {
@@ -81,5 +114,57 @@ button {
 }
 
 li:nth-child(odd) {
-  background-color: rgb(202, 198, 198);
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: 200ms;
+  color: #09f;
+}
+
+li:nth-child(odd):hover {
+  border: none;
+  background-color: aquamarine;
+  transform: translateY(5px);
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 4s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(25%);
+  }
 }

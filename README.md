@@ -22,6 +22,9 @@
 # 📖 Leaderboard <a name="about-project"></a>
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
+<p align="center">
+  <img src="/img/demo.jpg" alt="Demo" width="500" />
+</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML(HTML-5).
@@ -38,6 +41,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - ⭐️ Create a new game by Useing Leaderboard API.
 - ⭐️ Add Submit function.
 - ⭐️ Add Refresh function.
+- ⭐️Improve the App's styling.
 - Use async and await JavaScript features to consume the API.
 - Add items dynamically to the UI. 
 - Use NPM.
@@ -60,7 +64,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://mostafashahat2021.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
