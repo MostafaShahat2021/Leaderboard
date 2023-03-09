@@ -38,6 +38,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - ⭐️ Create a new game by Useing Leaderboard API.
 - ⭐️ Add Submit function.
 - ⭐️ Add Refresh function.
+- ⭐️Improve the App's styling.
 - Use async and await JavaScript features to consume the API.
 - Add items dynamically to the UI. 
 - Use NPM.
