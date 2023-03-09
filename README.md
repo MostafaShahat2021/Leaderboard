@@ -22,6 +22,9 @@
 # 📖 Leaderboard <a name="about-project"></a>
 
 The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
+<p align="center">
+  <img src="/img/demo.jpg" alt="Demo" width="500" />
+</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML(HTML-5).
